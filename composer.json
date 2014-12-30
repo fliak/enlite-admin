@@ -19,7 +19,7 @@
         "doctrine/doctrine-orm-module":         "0.9.*@dev",
         "doctrine/doctrine-module":             "0.9.*@dev",
         "doctrine/cache":                       "v1.0",
-	"zf-commons/zfc-twig": "dev-master",
+	"zf-commons/zfc-twig": "~1.1.5",
 	"zf-commons/zfc-user": "2.0.*@dev"
     },
     "suggest": {
