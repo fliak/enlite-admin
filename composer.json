@@ -20,7 +20,7 @@
         "doctrine/doctrine-module":             "0.9.*@dev",
         "doctrine/cache":                       "v1.0",
 	"zf-commons/zfc-twig": "~1.1.5",
-	"zf-commons/zfc-user": "2.0.*@dev"
+	"zf-commons/zfc-user": "1.*@dev"
     },
     "suggest": {
         "neilime/zf2-twb-bundle":               "2.*",
