@@ -30,7 +30,11 @@
         {% for row in table %}
             <tr>
                 {% for field in row %}
-                    <td>{{ field }}</td>
+                    {% if field is iterable and field.raw %}
+                        <td>{{ field.content | raw }}</td>
+                    {% else %}
+                        <td>{{ field }}</td>
+                    {% endif %}
                 {% endfor %}
                 <td>
                     {% if row.id %}
